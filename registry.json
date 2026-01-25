@@ -1,0 +1,419 @@
+{
+    "version": "1.0.0",
+    "updated": "2026-01-23T00:00:00Z",
+    "features":
+    [
+        {
+            "id": "meetings",
+            "type": "feature",
+            "name": "Meetings",
+            "description": "Display AA meeting schedules using 12 Step Meeting List",
+            "icon": "people",
+            "category": "core",
+            "new": false,
+            "released": "2024-06-01",
+            "setup_url": "/wp-admin/edit.php?post_type=tsml_meeting",
+            "docs_url": "https://docs.fellowship.dev/meetings",
+            "plugin":
+            {
+                "slug": "fellowship-meetings",
+                "source": "github",
+                "repo": "AnonKit/meetings",
+                "version": "1.2.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.4"
+            },
+            "dependencies":
+            [
+                {
+                    "slug": "12-step-meeting-list",
+                    "name": "12 Step Meeting List",
+                    "source": "wordpress.org",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "type": "feature",
+            "name": "Bridge",
+            "description": "Feature marketplace to install and manage AnonKit plugins and recommended WordPress plugins.",
+            "icon": "bridge",
+            "category": "core",
+            "new": true,
+            "released": "2026-01-23",
+            "setup_url": "/wp-admin/admin.php?page=anonkit-bridge",
+            "docs_url": "https://docs.anonkit.net/bridge",
+            "plugin":
+            {
+                "slug": "anonkit-bridge",
+                "source": "github",
+                "repo": "AnonKit/bridge",
+                "version": "v1.0.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.4"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "bulletin",
+            "type": "feature",
+            "name": "Bulletin",
+            "description": "Adds events to your site with an event listing page.",
+            "icon": "calendar",
+            "category": "core",
+            "new": false,
+            "released": "2024-08-15",
+            "setup_url": "/wp-admin/edit.php?post_type=fellowship_event",
+            "docs_url": "https://docs.fellowship.dev/events",
+            "plugin":
+            {
+                "slug": "anonkit-bulletin",
+                "source": "github",
+                "repo": "AnonKit/bulletin",
+                "version": "v1.0.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.4"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "members",
+            "type": "feature",
+            "name": "Member Directory",
+            "description": "Private member portal with profiles and directory",
+            "icon": "users",
+            "category": "community",
+            "new": false,
+            "released": "2024-10-01",
+            "setup_url": "/wp-admin/admin.php?page=fellowship-members",
+            "docs_url": "https://docs.fellowship.dev/members",
+            "plugin":
+            {
+                "slug": "fellowship-members",
+                "source": "github",
+                "repo": "AnonKit/members",
+                "version": "v1.0.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.4"
+            },
+            "dependencies":
+            [
+                {
+                    "slug": "ultimate-member",
+                    "name": "Ultimate Member",
+                    "source": "wordpress.org",
+                    "required": false,
+                    "note": "Optional - enables advanced member features"
+                }
+            ]
+        },
+        {
+            "id": "beacon",
+            "type": "feature",
+            "name": "Beacon",
+            "description": "Sign-up management for carrying the message of AA into your community.",
+            "icon": "lighthouse",
+            "category": "outreach",
+            "new": true,
+            "released": "2026-01-15",
+            "setup_url": "/wp-admin/admin.php?page=fellowship-beacon",
+            "docs_url": "https://docs.fellowship.dev/beacon",
+            "plugin":
+            {
+                "slug": "anonkit-beacon",
+                "source": "github",
+                "repo": "AnonKit/beacon",
+                "version": "v1.2.2",
+                "requires_php": "8.0",
+                "requires_wp": "6.4"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "keystone",
+            "type": "feature",
+            "name": "Keystone",
+            "description": "Centralized update system for AnonKit products. Enables automatic updates from private GitHub repositories.",
+            "icon": "key",
+            "category": "core",
+            "new": true,
+            "released": "2026-01-20",
+            "setup_url": "/wp-admin/plugins.php",
+            "docs_url": "https://docs.fellowship.dev/keystone",
+            "plugin":
+            {
+                "slug": "anonkit-keystone",
+                "source": "github",
+                "repo": "AnonKit/keystone",
+                "version": "v1.0.0",
+                "requires_php": "7.4",
+                "requires_wp": "6.0"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "quorum",
+            "type": "feature",
+            "name": "Quorum Connect",
+            "description": "Connect WordPress forms to Quorum event registration system. Includes built-in registration form, Gutenberg blocks, and Gravity Forms integration.",
+            "icon": "users",
+            "category": "community",
+            "new": false,
+            "released": "2026-01-20",
+            "setup_url": "/wp-admin/admin.php?page=anonkit-quorum",
+            "docs_url": "https://docs.fellowship.dev/quorum",
+            "plugin":
+            {
+                "slug": "anonkit-quorum",
+                "source": "github",
+                "repo": "AnonKit/quorum-connect",
+                "version": "v1.0.0",
+                "requires_php": "7.4",
+                "requires_wp": "5.8"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "meetingmaker",
+            "type": "feature",
+            "name": "MeetingMaker Connect",
+            "description": "Connect your MeetingMaker feed to 12 Step Meeting List plugin for easy meeting data synchronization.",
+            "icon": "link",
+            "category": "core",
+            "new": false,
+            "released": "2026-01-22",
+            "setup_url": "/wp-admin/options-general.php?page=meetingmaker-tsml-connector",
+            "docs_url": "https://meetingmaker.app/docs",
+            "plugin":
+            {
+                "slug": "meetingmaker-tsml-connector",
+                "source": "github",
+                "repo": "AnonKit/meetingmaker-connect",
+                "version": "v1.0.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.0"
+            },
+            "dependencies":
+            [
+                {
+                    "slug": "12-step-meeting-list",
+                    "name": "12 Step Meeting List",
+                    "source": "wordpress.org",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "id": "forms",
+            "type": "feature",
+            "name": "Gravity Forms",
+            "description": "Complex forms, payments, and workflows with Gravity Forms",
+            "icon": "clipboard",
+            "category": "core",
+            "new": false,
+            "released": "2024-06-01",
+            "setup_url": "/wp-admin/admin.php?page=gf_edit_forms",
+            "docs_url": "https://docs.gravityforms.com/",
+            "plugin":
+            {
+                "slug": "gravityforms",
+                "source": "private-registry",
+                "zip_url": "plugins/gravityforms.zip",
+                "version": "2.8.0",
+                "requires_php": "7.4",
+                "requires_wp": "6.0",
+                "requires_license": true,
+                "license_instructions": "Enter the Gravity Forms license key provided with your Fellowship membership."
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "acf",
+            "type": "feature",
+            "name": "Advanced Custom Fields",
+            "description": "Custom fields for flexible content management",
+            "icon": "settings",
+            "category": "core",
+            "new": false,
+            "released": "2024-06-01",
+            "setup_url": "/wp-admin/edit.php?post_type=acf-field-group",
+            "docs_url": "https://www.advancedcustomfields.com/resources/",
+            "plugin":
+            {
+                "slug": "advanced-custom-fields-pro",
+                "source": "private-registry",
+                "zip_url": "plugins/advanced-custom-fields-pro.zip",
+                "version": "6.2.0",
+                "requires_php": "7.4",
+                "requires_wp": "6.0",
+                "requires_license": true,
+                "license_instructions": "Enter the ACF Pro license key provided with your Fellowship membership."
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "wp-mail-smtp",
+            "type": "recommended",
+            "name": "WP Mail SMTP",
+            "description": "The improves WordPress email deliverability issues, resulting in fewer emails being marked as spam.",
+            "icon": "mail",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=wp-mail-smtp",
+            "docs_url": "https://wpmailsmtp.com/docs/",
+            "plugin":
+            {
+                "slug": "wp-mail-smtp",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "copy-delete-posts",
+            "type": "recommended",
+            "name": "Copy & Delete Posts",
+            "description": "Makes duplicating posts, pages, and custom post types easy with a single click",
+            "icon": "clipboard",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=cdp_settings",
+            "docs_url": "https://developer.wordpress.org/plugins/copy-delete-posts/",
+            "plugin":
+            {
+                "slug": "copy-delete-posts",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "custom-taxonomy-order",
+            "type": "recommended",
+            "name": "Custom Taxonomy Order",
+            "description": "Drag and drop reordering for categories and custom taxonomies",
+            "icon": "settings",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=customtaxorder",
+            "docs_url": "",
+            "plugin":
+            {
+                "slug": "custom-taxonomy-order-ne",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "page-scroll-to-id",
+            "type": "recommended",
+            "name": "Page scroll to id",
+            "description": "Smooth scrolling to anchor links and page sections",
+            "icon": "puzzle",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/options-general.php?page=malihu-pagescroll2id-options",
+            "docs_url": "https://developer.wordpress.org/plugins/page-scroll-to-id/",
+            "plugin":
+            {
+                "slug": "page-scroll-to-id",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "google-site-kit",
+            "type": "recommended",
+            "name": "Site Kit by Google",
+            "description": "Google Analytics, Search Console, AdSense, and PageSpeed insights",
+            "icon": "puzzle",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=googlesitekit-splash",
+            "docs_url": "https://sitekit.withgoogle.com/documentation/",
+            "plugin":
+            {
+                "slug": "google-site-kit",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "svg-support",
+            "type": "recommended",
+            "name": "SVG Support",
+            "description": "Safely upload and use SVG files in WordPress",
+            "icon": "puzzle",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=svg-support",
+            "docs_url": "",
+            "plugin":
+            {
+                "slug": "svg-support",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "yoast-seo",
+            "type": "recommended",
+            "name": "Yoast SEO",
+            "description": "Complete SEO solution with content analysis and XML sitemaps",
+            "icon": "puzzle",
+            "category": "",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=wpseo_dashboard",
+            "docs_url": "https://yoast.com/help/",
+            "plugin":
+            {
+                "slug": "wordpress-seo",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        }
+    ],
+    "categories":
+    [
+        {
+            "id": "core",
+            "name": "Core Features",
+            "order": 1
+        },
+        {
+            "id": "community",
+            "name": "Community",
+            "order": 2
+        },
+        {
+            "id": "outreach",
+            "name": "Outreach",
+            "order": 3
+        },
+        {
+            "id": "commerce",
+            "name": "Commerce",
+            "order": 4
+        }
+    ]
+}
