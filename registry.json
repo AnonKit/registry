@@ -49,7 +49,7 @@
                 "slug": "anonkit-bridge",
                 "source": "github",
                 "repo": "AnonKit/bridge",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
@@ -72,7 +72,7 @@
                 "slug": "anonkit-bulletin",
                 "source": "github",
                 "repo": "AnonKit/bulletin",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
@@ -172,7 +172,7 @@
                 "slug": "anonkit-quorum",
                 "source": "github",
                 "repo": "AnonKit/quorum-connect",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "requires_php": "7.4",
                 "requires_wp": "5.8"
             },
@@ -195,7 +195,7 @@
                 "slug": "meetingmaker-tsml-connector",
                 "source": "github",
                 "repo": "AnonKit/meetingmaker-connect",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.0"
             },
