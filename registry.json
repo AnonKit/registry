@@ -34,29 +34,6 @@
             ]
         },
         {
-            "id": "bridge",
-            "type": "feature",
-            "name": "Bridge",
-            "description": "Feature marketplace to install and manage AnonKit plugins and recommended WordPress plugins.",
-            "icon": "bridge",
-            "category": "core",
-            "new": true,
-            "released": "2026-01-23",
-            "setup_url": "/wp-admin/admin.php?page=anonkit-bridge",
-            "docs_url": "https://docs.anonkit.net/bridge",
-            "plugin":
-            {
-                "slug": "anonkit-bridge",
-                "source": "github",
-                "repo": "AnonKit/bridge",
-                "version": "v1.0.1",
-                "requires_php": "8.0",
-                "requires_wp": "6.4"
-            },
-            "dependencies":
-            []
-        },
-        {
             "id": "bulletin",
             "type": "feature",
             "name": "Bulletin",
@@ -129,29 +106,6 @@
                 "version": "v1.2.2",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
-            },
-            "dependencies":
-            []
-        },
-        {
-            "id": "keystone",
-            "type": "feature",
-            "name": "Keystone",
-            "description": "Centralized update system for AnonKit products. Enables automatic updates from private GitHub repositories.",
-            "icon": "key",
-            "category": "core",
-            "new": true,
-            "released": "2026-01-20",
-            "setup_url": "/wp-admin/plugins.php",
-            "docs_url": "https://docs.fellowship.dev/keystone",
-            "plugin":
-            {
-                "slug": "anonkit-keystone",
-                "source": "github",
-                "repo": "AnonKit/keystone",
-                "version": "v1.0.0",
-                "requires_php": "7.4",
-                "requires_wp": "6.0"
             },
             "dependencies":
             []
