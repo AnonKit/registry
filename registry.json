@@ -127,6 +127,7 @@
                 "source": "github",
                 "repo": "AnonKit/quorum-connect",
                 "version": "v1.0.1",
+                "requires_product": "quorum",
                 "requires_php": "7.4",
                 "requires_wp": "5.8"
             },
@@ -150,6 +151,7 @@
                 "source": "github",
                 "repo": "AnonKit/meetingmaker-connect",
                 "version": "v1.0.1",
+                "requires_product": "meetingmaker",
                 "requires_php": "8.0",
                 "requires_wp": "6.0"
             },
