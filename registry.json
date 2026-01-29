@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "updated": "2026-01-23T00:00:00Z",
+    "version": "1.1.0",
+    "updated": "2026-01-28T00:00:00Z",
     "features":
     [
         {
@@ -111,8 +111,32 @@
             []
         },
         {
-            "id": "quorum",
+            "id": "fellowship-theme",
             "type": "feature",
+            "asset_type": "theme",
+            "name": "Fellowship Theme",
+            "description": "The official AnonKit theme for 12-step fellowship websites. Clean, accessible design with support for all AnonKit features.",
+            "icon": "bridge",
+            "category": "core",
+            "new": false,
+            "released": "2024-06-01",
+            "docs_url": "https://docs.fellowship.dev/theme",
+            "theme":
+            {
+                "slug": "developer-developer",
+                "source": "github",
+                "repo": "AnonKit/developer-developer",
+                "version": "1.0.0",
+                "requires_php": "8.0",
+                "requires_wp": "6.4",
+                "preview_url": "https://developer.developer.dev"
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "quorum",
+            "type": "app",
             "name": "Quorum Connect",
             "description": "Connect WordPress forms to Quorum event registration system. Includes built-in registration form, Gutenberg blocks, and Gravity Forms integration.",
             "icon": "users",
@@ -136,7 +160,7 @@
         },
         {
             "id": "meetingmaker",
-            "type": "feature",
+            "type": "app",
             "name": "MeetingMaker Connect",
             "description": "Connect your MeetingMaker feed to 12 Step Meeting List plugin for easy meeting data synchronization.",
             "icon": "link",
@@ -167,7 +191,7 @@
         },
         {
             "id": "forms",
-            "type": "feature",
+            "type": "premium",
             "name": "Gravity Forms",
             "description": "Complex forms, payments, and workflows with Gravity Forms",
             "icon": "clipboard",
@@ -192,7 +216,7 @@
         },
         {
             "id": "acf",
-            "type": "feature",
+            "type": "premium",
             "name": "Advanced Custom Fields",
             "description": "Custom fields for flexible content management",
             "icon": "settings",
