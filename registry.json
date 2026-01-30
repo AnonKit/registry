@@ -49,7 +49,7 @@
                 "slug": "anonkit-bulletin",
                 "source": "github",
                 "repo": "AnonKit/bulletin",
-                "version": "v1.0.2",
+                "version": "v1.0.3",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
