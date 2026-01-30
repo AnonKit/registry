@@ -1,8 +1,37 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "updated": "2026-01-30T00:00:00Z",
     "features":
     [
+        {
+            "id": "anonkit",
+            "type": "core",
+            "name": "AnonKit Bridge",
+            "description": "Core plugin that connects your WordPress site to Hub for licensing, updates, and the feature marketplace",
+            "icon": "bridge",
+            "category": "core",
+            "entitlement": "core",
+            "new": false,
+            "released": "2024-06-01",
+            "setup_url": "/wp-admin/admin.php?page=anonkit",
+            "docs_url": "https://hub.anonkit.net/getting-started",
+            "plugin":
+            {
+                "slug": "anonkit",
+                "source": "github",
+                "repo": "AnonKit/anonkit-wp",
+                "version": "v1.0.0",
+                "requires_php": "7.4",
+                "requires_wp": "6.0",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/anonkit.svg"
+            },
+            "dependencies":
+            []
+        },
         {
             "id": "meetings",
             "type": "feature",
@@ -10,6 +39,7 @@
             "description": "Display AA meeting schedules using 12 Step Meeting List",
             "icon": "people",
             "category": "core",
+            "entitlement": "membership",
             "new": false,
             "released": "2024-06-01",
             "setup_url": "/wp-admin/edit.php?post_type=tsml_meeting",
@@ -21,7 +51,12 @@
                 "repo": "AnonKit/meetings",
                 "version": "v1.0.1",
                 "requires_php": "8.0",
-                "requires_wp": "6.4"
+                "requires_wp": "6.4",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/meetings.svg"
             },
             "dependencies":
             [
@@ -40,6 +75,7 @@
             "description": "Adds events to your site with an event listing page.",
             "icon": "calendar",
             "category": "core",
+            "entitlement": "membership",
             "new": false,
             "released": "2024-08-15",
             "setup_url": "/wp-admin/edit.php?post_type=fellowship_event",
@@ -51,7 +87,12 @@
                 "repo": "AnonKit/bulletin",
                 "version": "v1.0.4",
                 "requires_php": "8.0",
-                "requires_wp": "6.4"
+                "requires_wp": "6.4",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/bulletin.svg"
             },
             "dependencies":
             []
@@ -63,6 +104,7 @@
             "description": "Private member portal with profiles and directory",
             "icon": "users",
             "category": "community",
+            "entitlement": "membership",
             "new": false,
             "released": "2024-10-01",
             "setup_url": "/wp-admin/admin.php?page=fellowship-members",
@@ -74,7 +116,12 @@
                 "repo": "AnonKit/members",
                 "version": "v1.0.1",
                 "requires_php": "8.0",
-                "requires_wp": "6.4"
+                "requires_wp": "6.4",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/members.svg"
             },
             "dependencies":
             [
@@ -94,6 +141,7 @@
             "description": "Sign-up management for carrying the message of AA into your community.",
             "icon": "lighthouse",
             "category": "outreach",
+            "entitlement": "membership",
             "new": true,
             "released": "2026-01-15",
             "setup_url": "/wp-admin/admin.php?page=fellowship-beacon",
@@ -105,7 +153,12 @@
                 "repo": "AnonKit/beacon",
                 "version": "v1.2.3",
                 "requires_php": "8.0",
-                "requires_wp": "6.4"
+                "requires_wp": "6.4",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/beacon.svg"
             },
             "dependencies":
             []
@@ -118,6 +171,7 @@
             "description": "The official AnonKit theme for 12-step fellowship websites. Clean, accessible design with support for all AnonKit features.",
             "icon": "bridge",
             "category": "core",
+            "entitlement": "membership",
             "new": false,
             "released": "2024-06-01",
             "docs_url": "https://hub.anonkit.net/fellowship",
@@ -129,7 +183,12 @@
                 "version": "1.4.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.4",
+                "tested_wp": "6.5",
                 "preview_url": "https://developer.developer.dev"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/fellowship.svg"
             },
             "dependencies":
             []
@@ -141,6 +200,7 @@
             "description": "Connect WordPress forms to Quorum event registration system. Includes built-in registration form, Gutenberg blocks, and Gravity Forms integration.",
             "icon": "users",
             "category": "community",
+            "entitlement": "quorum",
             "new": false,
             "released": "2026-01-20",
             "setup_url": "/wp-admin/admin.php?page=anonkit-quorum",
@@ -151,9 +211,13 @@
                 "source": "github",
                 "repo": "AnonKit/quorum-connect",
                 "version": "v1.0.3",
-                "requires_product": "quorum",
                 "requires_php": "7.4",
-                "requires_wp": "5.8"
+                "requires_wp": "5.8",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/quorum.svg"
             },
             "dependencies":
             []
@@ -165,6 +229,7 @@
             "description": "Connect your MeetingMaker feed to 12 Step Meeting List plugin for easy meeting data synchronization.",
             "icon": "link",
             "category": "core",
+            "entitlement": "meetingmaker",
             "new": false,
             "released": "2026-01-22",
             "setup_url": "/wp-admin/options-general.php?page=meetingmaker-tsml-connector",
@@ -175,9 +240,13 @@
                 "source": "github",
                 "repo": "AnonKit/meetingmaker-connect",
                 "version": "v1.0.2",
-                "requires_product": "meetingmaker",
                 "requires_php": "8.0",
-                "requires_wp": "6.0"
+                "requires_wp": "6.0",
+                "tested_wp": "6.5"
+            },
+            "icons":
+            {
+                "svg": "https://hub.anonkit.net/assets/icons/meetingmaker.svg"
             },
             "dependencies":
             [
