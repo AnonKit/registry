@@ -1,6 +1,6 @@
 {
     "version": "1.1.0",
-    "updated": "2026-01-28T00:00:00Z",
+    "updated": "2026-01-30T00:00:00Z",
     "features":
     [
         {
@@ -366,6 +366,25 @@
             "plugin":
             {
                 "slug": "wordpress-seo",
+                "source": "wordpress.org",
+                "version": ""
+            },
+            "dependencies":
+            []
+        },
+        {
+            "id": "ultimate-member",
+            "type": "recommended",
+            "name": "Ultimate Member",
+            "description": "User profile, registration, login, and membership plugin for WordPress",
+            "icon": "users",
+            "category": "community",
+            "new": false,
+            "setup_url": "/wp-admin/admin.php?page=ultimate-member",
+            "docs_url": "https://docs.developer.wordpress.org/plugins/ultimate-member/",
+            "plugin":
+            {
+                "slug": "ultimate-member",
                 "source": "wordpress.org",
                 "version": ""
             },
