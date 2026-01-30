@@ -13,7 +13,7 @@
             "new": false,
             "released": "2024-06-01",
             "setup_url": "/wp-admin/edit.php?post_type=tsml_meeting",
-            "docs_url": "https://docs.fellowship.dev/meetings",
+            "docs_url": "https://hub.anonkit.net/meetings",
             "plugin":
             {
                 "slug": "fellowship-meetings",
@@ -43,7 +43,7 @@
             "new": false,
             "released": "2024-08-15",
             "setup_url": "/wp-admin/edit.php?post_type=fellowship_event",
-            "docs_url": "https://docs.fellowship.dev/events",
+            "docs_url": "https://hub.anonkit.net/bulletin",
             "plugin":
             {
                 "slug": "anonkit-bulletin",
@@ -66,7 +66,7 @@
             "new": false,
             "released": "2024-10-01",
             "setup_url": "/wp-admin/admin.php?page=fellowship-members",
-            "docs_url": "https://docs.fellowship.dev/members",
+            "docs_url": "https://hub.anonkit.net/members",
             "plugin":
             {
                 "slug": "fellowship-members",
@@ -97,7 +97,7 @@
             "new": true,
             "released": "2026-01-15",
             "setup_url": "/wp-admin/admin.php?page=fellowship-beacon",
-            "docs_url": "https://docs.fellowship.dev/beacon",
+            "docs_url": "https://hub.anonkit.net/beacon",
             "plugin":
             {
                 "slug": "anonkit-beacon",
@@ -120,12 +120,12 @@
             "category": "core",
             "new": false,
             "released": "2024-06-01",
-            "docs_url": "https://docs.fellowship.dev/theme",
+            "docs_url": "https://hub.anonkit.net/fellowship",
             "theme":
             {
-                "slug": "developer-developer",
-                "source": "github",
-                "repo": "AnonKit/developer-developer",
+                "slug": "fellowship",
+                "source": "hub",
+                "repo": "AnonKit/fellowship-wp-theme",
                 "version": "1.0.0",
                 "requires_php": "8.0",
                 "requires_wp": "6.4",
@@ -144,7 +144,7 @@
             "new": false,
             "released": "2026-01-20",
             "setup_url": "/wp-admin/admin.php?page=anonkit-quorum",
-            "docs_url": "https://docs.fellowship.dev/quorum",
+            "docs_url": "https://hub.anonkit.net/quorum",
             "plugin":
             {
                 "slug": "anonkit-quorum",
@@ -168,7 +168,7 @@
             "new": false,
             "released": "2026-01-22",
             "setup_url": "/wp-admin/options-general.php?page=meetingmaker-tsml-connector",
-            "docs_url": "https://meetingmaker.app/docs",
+            "docs_url": "https://hub.anonkit.net/meetingmaker",
             "plugin":
             {
                 "slug": "meetingmaker-tsml-connector",
