@@ -72,7 +72,7 @@
                 "slug": "fellowship-members",
                 "source": "github",
                 "repo": "AnonKit/members",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
