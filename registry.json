@@ -126,7 +126,7 @@
                 "slug": "fellowship",
                 "source": "hub",
                 "repo": "AnonKit/fellowship-wp-theme",
-                "version": "1.4.0",
+                "version": "1.4.1",
                 "requires_php": "8.0",
                 "requires_wp": "6.4",
                 "preview_url": "https://developer.developer.dev"
