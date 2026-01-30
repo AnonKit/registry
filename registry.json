@@ -103,7 +103,7 @@
                 "slug": "anonkit-beacon",
                 "source": "github",
                 "repo": "AnonKit/beacon",
-                "version": "v1.2.2",
+                "version": "v1.2.3",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
@@ -150,7 +150,7 @@
                 "slug": "anonkit-quorum",
                 "source": "github",
                 "repo": "AnonKit/quorum-connect",
-                "version": "v1.0.2",
+                "version": "v1.0.3",
                 "requires_product": "quorum",
                 "requires_php": "7.4",
                 "requires_wp": "5.8"
