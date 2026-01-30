@@ -82,7 +82,7 @@
                     "slug": "ultimate-member",
                     "name": "Ultimate Member",
                     "source": "wordpress.org",
-                    "required": false,
+                    "required": true,
                     "note": "Optional - enables advanced member features"
                 }
             ]
