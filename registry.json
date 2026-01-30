@@ -6,7 +6,7 @@
         {
             "id": "meetings",
             "type": "feature",
-            "name": "Anonkit Meetings",
+            "name": "Meetings",
             "description": "Display AA meeting schedules using 12 Step Meeting List",
             "icon": "people",
             "category": "core",
@@ -36,7 +36,7 @@
         {
             "id": "bulletin",
             "type": "feature",
-            "name": "Anonkit Bulletin",
+            "name": "Bulletin",
             "description": "Adds events to your site with an event listing page.",
             "icon": "calendar",
             "category": "core",
@@ -49,7 +49,7 @@
                 "slug": "anonkit-bulletin",
                 "source": "github",
                 "repo": "AnonKit/bulletin",
-                "version": "v1.0.3",
+                "version": "v1.0.4",
                 "requires_php": "8.0",
                 "requires_wp": "6.4"
             },
@@ -59,7 +59,7 @@
         {
             "id": "members",
             "type": "feature",
-            "name": "Anonkit Member's Only",
+            "name": "Member Portal",
             "description": "Private member portal with profiles and directory",
             "icon": "users",
             "category": "community",
@@ -90,7 +90,7 @@
         {
             "id": "beacon",
             "type": "feature",
-            "name": "Anonkit Beacon",
+            "name": "Beacon",
             "description": "Sign-up management for carrying the message of AA into your community.",
             "icon": "lighthouse",
             "category": "outreach",
