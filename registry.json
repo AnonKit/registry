@@ -20,7 +20,7 @@
                 "slug": "anonkit",
                 "source": "github",
                 "repo": "AnonKit/anonkit-wp",
-                "version": "v1.0.19",
+                "version": "v1.0.18",
                 "requires_php": "7.4",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
