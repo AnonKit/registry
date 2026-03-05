@@ -210,7 +210,7 @@
                 "slug": "anonkit-quorum",
                 "source": "github",
                 "repo": "AnonKit/quorum-connect",
-                "version": "v1.1.1",
+                "version": "v1.1.2",
                 "requires_php": "7.4",
                 "requires_wp": "5.8",
                 "tested_wp": "6.5"
