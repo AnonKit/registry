@@ -144,7 +144,7 @@
             "entitlement": "membership",
             "new": true,
             "released": "2026-01-15",
-            "setup_url": "/wp-admin/admin.php?page=fellowship-beacon",
+            "setup_url": "/wp-admin/admin.php?page=anonkit-beacon",
             "docs_url": "https://hub.anonkit.net/beacon",
             "plugin":
             {
