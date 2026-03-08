@@ -19,7 +19,7 @@
                 "slug": "anonkit",
                 "source": "github",
                 "repo": "AnonKit/anonkit-wp",
-                "version": "v1.0.23",
+                "version": "v1.0.24",
                 "requires_php": "7.4",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
@@ -454,12 +454,12 @@
     "tabs":
     [
         {
-            "id": "features",
+            "id": "feature",
             "name": "Features",
             "order": 1
         },
         {
-            "id": "apps",
+            "id": "app",
             "name": "Apps",
             "order": 2
         },
