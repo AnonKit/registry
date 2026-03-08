@@ -225,7 +225,7 @@
         {
             "id": "meetingmaker",
             "type": "app",
-            "name": "MeetingMaker Connect",
+            "name": "AnonKit MeetingMaker",
             "description": "Connect your MeetingMaker feed to 12 Step Meeting List plugin for easy meeting data synchronization.",
             "icon": "link",
             "category": "core",
@@ -239,7 +239,7 @@
                 "slug": "anonkit-meetingmaker",
                 "source": "github",
                 "repo": "AnonKit/anonkit-meetingmaker",
-                "version": "v2.1.0",
+                "version": "v2.2.0",
                 "requires_php": "8.0",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
