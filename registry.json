@@ -232,14 +232,14 @@
             "entitlement": "meetingmaker",
             "new": false,
             "released": "2026-01-22",
-            "setup_url": "/wp-admin/edit.php?post_type=tsml_meeting&page=meetingmaker-connector",
+            "setup_url": "/wp-admin/admin.php?page=anonkit-meetingmaker",
             "docs_url": "https://hub.anonkit.net/meetingmaker",
             "plugin":
             {
                 "slug": "anonkit-meetingmaker",
                 "source": "github",
                 "repo": "AnonKit/anonkit-meetingmaker",
-                "version": "v2.2.1",
+                "version": "v2.2.2",
                 "requires_php": "8.0",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
