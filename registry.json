@@ -239,7 +239,7 @@
                 "slug": "anonkit-meetingmaker",
                 "source": "github",
                 "repo": "AnonKit/anonkit-meetingmaker",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "requires_php": "8.0",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
