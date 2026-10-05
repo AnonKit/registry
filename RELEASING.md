@@ -66,6 +66,10 @@ git push origin main
   window failed with "Download failed. Unauthorized." Bridge ≥ 1.0.26 re-signs at install
   time (`upgrader_pre_download`). On a site running an older bridge, force-check and
   update within 5 minutes (this applies to updating the bridge itself).
+- **Bridge 1.0.26–1.0.27 first installs:** those versions re-signed from the update check,
+  which only covers installed products, so installing a *new* product from the Feature
+  Manager always failed ("Could not obtain a fresh download link"). Fixed in 1.0.28; on an
+  affected site, update the bridge first (updates were unaffected).
 - **Repo name ≠ slug is fine:** e.g. slug `anonkit-quorum` lives in repo `quorum-connect`.
   The bridge's `fix_directory_name` renames the GitHub zipball directory to the slug.
 - **Quorum readme legacy numbering:** pre-2026 changelog/upgrade-notice entries use a
