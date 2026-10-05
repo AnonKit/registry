@@ -146,7 +146,7 @@
                 "slug": "anonkit-beacon",
                 "source": "github",
                 "repo": "AnonKit/beacon",
-                "version": "v1.2.9",
+                "version": "v1.2.10",
                 "requires_php": "8.0",
                 "requires_wp": "6.4",
                 "tested_wp": "6.5"
