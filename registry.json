@@ -19,7 +19,7 @@
                 "slug": "anonkit",
                 "source": "github",
                 "repo": "AnonKit/anonkit-wp",
-                "version": "v1.0.28",
+                "version": "v1.0.29",
                 "requires_php": "7.4",
                 "requires_wp": "6.0",
                 "tested_wp": "6.5"
@@ -146,7 +146,7 @@
                 "slug": "anonkit-beacon",
                 "source": "github",
                 "repo": "AnonKit/beacon",
-                "version": "v1.2.10",
+                "version": "v1.2.11",
                 "requires_php": "8.0",
                 "requires_wp": "6.4",
                 "tested_wp": "6.5"
